@@ -4,29 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Create</title>
   </head>
   <body>
       <header>
-        <section class="header">
-            <h1>Profile</h1>
-        </section>
+          <section class="header">
+              <h1>Create</h1>
+          </section>
       </header>
       <main>
-        <section class="profile">
-            <h2>Sabrina</h2>
-            <img src="" alt="" class="profile-pic">
-            <h3>About Yourself</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque quaerat amet ipsa aliquid minus est temporibus nostrum, saepe nobis!</p>
-            <h3> Skills </h3>
-                <ul class="tags">
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
-                    <li>Skill 3</li>
-                    <li>Skill 4</li>
-                </ul>
-                <button>LOGOUT</button>
-        </section>
+          <section class="input-form">
+              <h2>Add Question</h2>
+              <label for="add-question">Do you want to add a new question to the app?</label>
+              <textarea name="add-question" id="add-question" cols="33" rows="5">
+              </textarea>
+          </section>
+          <section class="input-form">
+              <h2>Add Answer</h2>
+              <label for="add-answer">Insert the answer to your new question here: </label>
+              <textarea name="add-answer" id="add-answer" cols="33" rows="5">
+              </textarea>
+          </section>
+          <section class="input-form">
+              <h2>Add Hints</h2>
+              <input type="text" id="add-hints" name ="add-hints" placeholder = "Type some hints here..." pattern="^[a-zA-Z]+(\s*,\s*[a-zA-Z]+)*$" required>
+          </section>
+            <button>SUBMIT</button>
       </main>
       <footer>
         <nav>
