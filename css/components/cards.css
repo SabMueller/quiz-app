@@ -1,0 +1,17 @@
+.card {
+  align-items: center;
+  background-color: #611b3c;
+  border-radius: 2%;
+  box-shadow: 2px 2px 6px 2px #330e1f;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 90vw;
+}
+
+.card__options {
+  align-self: auto;
+  margin: 1.5rem;
+}
