@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styles.css">
     <title>Quiz App</title>
   </head>
   <body>
@@ -16,18 +16,18 @@
     </header>
     <main>
       <section class="card">
-        <h2>Question 1</h2>
-        <p>Which of Phoebe's songs get turned into a music video?</p>
+        <h2 class="card__title">Question</h2>
+        <p class="card__question">Which of Phoebe's songs get turned into a music video?</p>
         <ul class="card__options">
           <li>The Cow In The Meadow</li>
           <li>Smelly Cat</li>
           <li>Sticky Shoes</li>
           <li>Hey Mr. Bad News</li>
         </ul>
-        <button>Show Answer</button>
+        <button class="card__button">Show Answer</button>
         <details>
             <summary>Show Answer</summary>
-                <p>Smelly Cat</p>
+                <p class="card__answer">Smelly Cat</p>
         </details>
         <ul class="card__hints">
             <li>Taylor Swift performed it live with Phoebe in 2015</li>
@@ -35,8 +35,8 @@
         </ul>
       </section>
       <section class="card">
-        <h2>Question 2</h2>
-        <p>Who played the role of Rachel Green?</p>
+        <h2>Question</h2>
+        <p class="card__question"> Who played the role of Rachel Green?</p>
         <ul class="card__options">
           <li>Jennifer Aniston</li>
           <li>Lisa Kudrow</li>
@@ -46,7 +46,7 @@
         <button>Show Answer</button>
         <details>
             <summary>Show Answer</summary>
-                <p>Jennifer Aniston</p>
+                <p class="card__answer">Jennifer Aniston</p>
         </details>
         <ul class="card__hints">
             <li>She became famous for her character's haircut</li>
@@ -54,8 +54,8 @@
         </ul>
       </section>
       <section class="card">
-        <h2>Question 3</h2>
-        <p>What year did the series finale of Friends air?</p>
+        <h2>Question </h2>
+        <p class="card__question">What year did the series finale of Friends air?</p>
         <ul class="card__options">
           <li>1999</li>
           <li>2004 </li>
@@ -65,7 +65,7 @@
         <button>Show Answer</button>
         <details>
             <summary>Show Answer</summary>
-                <p>2004</p>
+                <p class="card__answer">2004</p>
         </details>
         <ul class="card__hints">
             <li>It ended after 10 seasons.</li>
@@ -73,8 +73,8 @@
         </ul>
       </section>
       <section class="card">
-        <h2>Question 4</h2>
-        <p>Who sings the Friends theme song "I'll be there for you?"</p>
+        <h2>Question </h2>
+        <p class="card__question">Who sings the Friends theme song "I'll be there for you?"</p>
         <ul class="card__options">
           <li>The Doors</li>
           <li>R.E.M.</li>
@@ -84,7 +84,7 @@
         <button>Show Answer</button>
         <details>
             <summary>Show Answer</summary>
-                <p>The Rembrandts</p>
+                <p class="card__answer">The Rembrandts</p>
         </details>
         <ul class="card__hints">
             <li>The lyrics were co-written by the producers of Friends</li>

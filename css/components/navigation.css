@@ -1,0 +1,12 @@
+.navigation {
+  background-color: cadetblue;
+  margin: 0 auto;
+  padding: 0.2rem;
+}
+
+.navigation__container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
