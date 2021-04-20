@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
     <title>Create</title>
   </head>
   <body>
@@ -13,6 +14,7 @@
           </section>
       </header>
       <main>
+        <form action="">
           <section class="input-form">
               <h2>Add Question</h2>
               <label for="add-question">Do you want to add a new question to the app?</label>
@@ -30,10 +32,11 @@
               <input type="text" id="add-hints" name ="add-hints" placeholder = "Type some hints here..." pattern="^[a-zA-Z]+(\s*,\s*[a-zA-Z]+)*$" required>
           </section>
             <button>SUBMIT</button>
+        </form>
       </main>
       <footer>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="navbar-items">
               <li>
                 <a href="index.html">Home<img src="" alt="" class="home-icon" />
               </li>
