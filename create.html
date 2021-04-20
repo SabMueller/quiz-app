@@ -15,48 +15,49 @@
       </header>
       <main>
         <form action="">
-          <section class="input-form">
+          <section class="input">
               <h2>Add Question</h2>
-              <label for="add-question">Do you want to add a new question to the app?</label>
-              <textarea name="add-question" id="add-question" cols="33" rows="5">
+              <label class="input__label" for="add-question">Do you want to add a new question to the app?</label>
+              <textarea class="input__textarea" name="add-question" cols="33" rows="5">
               </textarea>
           </section>
-          <section class="input-form">
+          <section class="input">
               <h2>Add Answer</h2>
-              <label for="add-answer">Insert the answer to your new question here: </label>
-              <textarea name="add-answer" id="add-answer" cols="33" rows="5">
+              <label class="input__label" for="add-answer">Insert the answer to your new question here: </label>
+              <textarea class="input__textarea" name="add-answer" cols="33" rows="5">
               </textarea>
           </section>
-          <section class="input-form">
+          <section class="input">
               <h2>Add Hints</h2>
-              <input type="text" id="add-hints" name ="add-hints" placeholder = "Type some hints here..." pattern="^[a-zA-Z]+(\s*,\s*[a-zA-Z]+)*$" required>
+              <label class="input__label" for="add-hints">What are some hints to your question?</label>
+              <input class="input__hints" type="text" id="add-hints" name ="add-hints" placeholder = "Type some hints here..." pattern="^[a-zA-Z]+(\s*,\s*[a-zA-Z]+)*$" required>
           </section>
             <button>SUBMIT</button>
         </form>
       </main>
       <footer>
-        <nav class="navbar">
-            <ul class="navbar-items">
-              <li>
-                <a href="index.html">Home<img src="" alt="" class="home-icon" />
-              </li>
-              <li>
-                <a href="bookmarks.html">
-                  Bookmarks <img src="" alt="" class="bookmarks-icon"
-                /></a>
-              </li>
-              <li>
-                <a href="create.html">
-                  Create <img src="" alt="" class="create-icon"
-                /></a>
-              </li>
-              <li>
-                <a href="profile.html">
-                  Profile <img src="" alt="" class="profile-icon"
-                /></a>
-              </li>
-            </ul>
-          </nav>
+        <nav class="navigation">
+          <ul class="navigation__container">
+            <li class="navigation__item">
+              <a href="index.html">Home<img src="" alt="" class="navigation__icon" />
+            </li>
+            <li class="navigation__item">
+              <a href="bookmarks.html">
+                Bookmarks <img src="" alt="" class="navigation__icon"
+              /></a>
+            </li>
+            <li class="navigation__item">
+              <a href="create.html">
+                Create <img src="" alt="" class="navigation__icon"
+              /></a>
+            </li>
+            <li class="navigation__item">
+              <a href="profile.html">
+                Profile <img src="" alt="" class="navigation__icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
       </footer>
   </body>
 </html>
