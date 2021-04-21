@@ -1,31 +1,80 @@
+summary {
+  color: var(--highlight-color);
+  font-size: var(--fs-200);
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
 .card {
+  display: flex;
   align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
   background-color: #611b3c;
   border-radius: 2%;
   box-shadow: 2px 2px 6px 2px #330e1f;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
   margin: 2rem auto;
   padding: 1rem 0.5rem;
+  position: relative;
   width: 80vw;
+}
+
+.card__bookmark {
+  position: absolute;
+  top: -2%;
+  right: 1%;
+  width: 3rem;
+}
+
+.card__bookmark--active {
+  position: absolute;
+  top: -2%;
+  right: 1%;
+  width: 3rem;
+}
+
+.card__title {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-300);
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 1px var(--black);
+}
+
+.card__question {
+  text-align: center;
 }
 
 .card__options {
   display: flex;
+  align-content: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-content: center;
   padding-left: 0;
 }
 
 .card__option {
   background-color: var(--secondary);
-  padding: 0.2rem;
-  margin: 0.2rem;
-  width: 13rem;
-  border-radius: 10px;
   border: 1px solid var(--secondary-dark);
   box-shadow: 1px 1px 1px var(--grey-darkest);
+  border-radius: 10px;
+  margin: 0.2rem;
+  padding: 0.2rem;
   text-align: center;
+  width: 13rem;
+}
+
+.card__button {
+  border-radius: 20px;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.card__answer {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card__funfacts {
+  font-size: 0.8rem;
+  padding-left: 10px;
 }

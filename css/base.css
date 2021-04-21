@@ -16,6 +16,7 @@
   --grey-lightest: hsl(332, 1%, 96%);
   --black: hsl(0, 0%, 10%);
   --white: hsl(0, 0%, 96%);
+  --highlight-color: hsl(80, 80%, 80%);
 
   --ff-hand: "Permanent Marker", cursive;
   --ff-sans: "Montserrat", sans-serif;
@@ -56,11 +57,6 @@ p {
 a {
   color: var(--black);
   text-decoration: none;
-}
-
-h1 {
-  color: var(--black);
-  font-family: var(--ff-hand);
 }
 
 body {
