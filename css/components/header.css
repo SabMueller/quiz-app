@@ -1,0 +1,14 @@
+header {
+  align-items: center;
+  background-color: #992157;
+  background-color: var(--secondary);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.header__logo {
+  width: 70%;
+}
