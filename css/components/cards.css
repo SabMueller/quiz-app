@@ -65,6 +65,7 @@ summary {
 
 .card__button {
   border-radius: 20px;
+  font-weight: bold;
   padding: 0.4rem;
   margin-bottom: 1rem;
 }

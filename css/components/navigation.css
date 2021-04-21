@@ -1,13 +1,30 @@
 .navigation {
-  background-color: #992157;
+  background-color: var(--secondary);
+  border-top: 2px solid var(--secondary-dark);
   margin: 0;
   padding: 0.2rem;
   width: 100vw;
+  position: fixed;
+  bottom: 0;
 }
 
 .navigation__container {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
+  padding-left: 0;
+  height: 3.5rem;
+}
+
+.navigation__icon {
+  width: 4.5rem;
+  padding: 1rem;
+}
+
+.navigation__icon--active {
+  width: 5.5rem;
+  background-color: var(--highlight-color);
+  border-radius: 15%;
 }
