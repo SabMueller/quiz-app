@@ -1,22 +1,27 @@
 :root {
-  --primary: hsl(332, 56%, 24%);
-  --primary-light: hsl(332, 56%, 75%);
-  --primary-lightest: hsl(332, 56%, 96%);
+  --primary: #a71710;
+  --primary-light: #4bf1c2;
+  --primary-lightest: #95f5da;
   --primary-dark: hsl(332, 56%, 18%);
   --primary-darkest: hsl(332, 56%, 10%);
-  --secondary: hsl(182, 56%, 24%);
-  --secondary-light: hsl(152, 56%, 75%);
-  --secondary-lightest: hsl(152, 56%, 96%);
-  --secondary-dark: hsl(152, 56%, 18%);
-  --secondary-darkest: hsl(152, 56%, 10%);
-  --grey: hsl(332, 10%, 40%);
-  --grey-dark: hsl(332, 10%, 25%);
-  --grey-darkest: hsl(332, 10%, 10%);
-  --grey-light: hsl(332, 10%, 85%);
-  --grey-lightest: hsl(332, 1%, 96%);
+  --secondary: #d96f48;
+  --secondary-light: #e28f71;
+  --secondary-lightest: #f5bca7;
+  --secondary-dark: #9b4120;
+  --secondary-darkest: #461e0f;
+  --grey: #c3c4c4;
+  --grey-dark: #909191;
+  --grey-darkest: #444444;
+  --grey-light: #eaeaea;
+  --grey-lightest: #f6f7f7;
+  --brown: hsl(45, 33%, 78%);
+  --brown-dark: hsl(39, 26%, 36%);
+  --brown-darkest: hsl(40, 31%, 11%);
   --black: hsl(0, 0%, 10%);
   --white: hsl(0, 0%, 96%);
-  --highlight-color: hsl(80, 80%, 80%);
+  --highlight-color-primary: #27fad3;
+  --highlight-color-secondary: #fa6027;
+  --highlight-color-secondarydark: #ac5637;
 
   --ff-hand: "Permanent Marker", cursive;
   --ff-sans: "Montserrat", sans-serif;
@@ -60,7 +65,7 @@ a {
 }
 
 body {
-  background-color: var(--grey);
+  background-color: var(--grey-darkest);
   color: var(--white);
   font-family: var(--ff-sans);
   line-height: 1.5;

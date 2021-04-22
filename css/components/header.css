@@ -12,11 +12,10 @@ header {
   z-index: 100;
 }
 
-.header__logo {
-  width: 70%;
-}
-
 h1 {
   color: var(--black);
   font-family: var(--ff-hand);
+}
+.header__logo {
+  width: 70%;
 }

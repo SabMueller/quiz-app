@@ -10,7 +10,7 @@ summary {
   align-items: center;
   flex-flow: column nowrap;
   justify-content: center;
-  background-color: #611b3c;
+  background-color: var(--primary);
   border-radius: 2%;
   box-shadow: 2px 2px 6px 2px #330e1f;
   margin: 2rem auto;
@@ -55,7 +55,7 @@ summary {
 .card__option {
   background-color: var(--secondary);
   border: 1px solid var(--secondary-dark);
-  box-shadow: 1px 1px 1px var(--grey-darkest);
+  box-shadow: 1px 1px 1px var(--secondary-darkest);
   border-radius: 10px;
   margin: 0.2rem;
   padding: 0.2rem;
