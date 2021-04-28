@@ -63,19 +63,26 @@ summary {
   width: 13rem;
 }
 
-.card__button {
+.card__button,
+.card__button-facts {
   border-radius: 20px;
   font-weight: bold;
   padding: 0.4rem;
   margin-bottom: 1rem;
 }
+.card__button {
+  margin-top: 2rem;
+}
+.hidden {
+  visibility: hidden;
+}
 
-.card__answer {
+.card__answer,
+.card__funfacts {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
 .card__funfacts {
-  font-size: 0.8rem;
-  padding-left: 10px;
+  text-align: center;
 }
