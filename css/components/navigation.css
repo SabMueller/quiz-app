@@ -1,13 +1,4 @@
-.navigation {
-  background-color: var(--secondary);
-  border-top: 1px solid var(--secondary-darkest);
-  margin: 0;
-  padding: 0.2rem;
-  width: 100vw;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.xnavigation {
 }
 
 .navigation__container {
@@ -16,13 +7,22 @@
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
-  padding-left: 0;
-  height: 3.5rem;
+  xpadding-left: 0;
+  height: 6rem;
+  background-color: var(--secondary);
+  border-top: 1px solid var(--secondary-darkest);
+  margin: 0;
+  padding: 0.2rem;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .navigation__icon {
   width: 4.5rem;
-  padding: 1rem;
+  xpadding: 10rem;
+  margin: 0 5rem;
 }
 
 .navigation__icon--active {
